@@ -11,6 +11,11 @@ Give your project a concise, interesting title that summarizes the entirety of y
 
 Names of your team members
 
+Qiulin Qu
+Jason Lee
+Naima Ibrahim Mohaba
+Emma Finkel
+
 ### Date
 
 Winter 2022
