@@ -17,7 +17,7 @@ undernourished_deaths_df <- CN_data %>%
   na.omit(Undernourished_as_num)
 
 # make line plot
-undernution_to_death <- ggplot(undernourished_deaths_df) +
+undernourished_to_death <- ggplot(undernourished_deaths_df) +
   geom_line(aes(x = Deaths, 
                 y = Undernourished_as_num)) +
   labs(title = "COVID-19 Deaths in Relation to Undernourishment", 
@@ -26,4 +26,4 @@ undernution_to_death <- ggplot(undernourished_deaths_df) +
   scale_y_continuous(labels = label_number_si())
 
 # display map
-undernution_to_death
+undernourished_to_death
