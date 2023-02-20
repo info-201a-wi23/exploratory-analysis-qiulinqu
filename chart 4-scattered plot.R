@@ -1,4 +1,4 @@
-population_death_fat <- read.csv('/Users/qiulinqu/Desktop/archive-2/Fat_Supply_Quantity_Data.csv')
+population_death_fat <- read.csv('/Users/qiulinqu/Desktop/archive-2/Food_Supply_kcal_Data.csv')
 
 
 install.packages("scales")
