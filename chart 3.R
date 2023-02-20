@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 library(dplyr)
 library(ggplot2)
 
@@ -15,3 +16,11 @@ ggplot(deaths_top10, aes(x = Country, y = Deaths)) +
   ylab("Number of deaths") +
   ggtitle("Top 10 countries with the most deaths")
            
+=======
+x_values <- seq(1, 3)
+y_values <- seq(1,3)
+
+library(ggplot2)
+ggplot() +
+  geom_point(aes(x=x_values, y = y_values))
+>>>>>>> 6cf093718fc3ca0edff1dc7a2d15b469d8eea933
