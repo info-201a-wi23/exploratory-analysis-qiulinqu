@@ -187,7 +187,9 @@ dataset. It was pertinent to our project to include these values as they create 
 NA values were ignored as they would have affected the final results without including any meaningful data. The maximum death value is 0.1854277 meaning the maximum 
 rate of death for any one country was about 18.5%. The minimum death value, however, is a reported "0" which differentiates it from the NA values. This means that a 
 country reported 0 deaths which is highly unlikely given the population numbers stated. The average death value is 0.03936961 across all countries meaning about a 3.9% 
-mortality rate average across the globe. he average undernourished value is 14.45714 and maximum undernourished value is 59.6.
+mortality rate average across the globe. The average undernourished value is 14.45714 and maximum undernourished value is 59.6, both displayed in percentages as well 
+which depicts a much higher rate of malnourishment in the world compared to the infection rates of Covid. Whether or not the two are related would require more 
+analysis.
 
 
 ### Table
