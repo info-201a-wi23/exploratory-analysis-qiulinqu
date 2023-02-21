@@ -20,7 +20,9 @@ Winter Quarter 2023 - February 20, 2023
 
 ### Abstract
 
-This project aims to explore the relationship between diet and COVID-19 and the dataset being used for our project contains nutritional information such as the quantity of fats in various countries. This study will investigate whether or not there is a correlation between fat consumption and the severity of COVID-19 outcomes. The results of this study may provide insights into how diet and overall health can impact the course of the disease and inform public health recommendations.
+This project aims to explore the relationship between diet and COVID-19 and the dataset being used for our project contains nutritional information such as the 
+quantity of fats in various countries. This study will investigate whether or not there is a correlation between fat consumption and the severity of COVID-19 outcomes. 
+The results of this study may provide insights into how diet and overall health can impact the course of the disease and inform public health recommendations.
 
 ### Keywords
 
@@ -34,13 +36,31 @@ Research questions:
 - Is there a positive correlation between obesity rates and covid mortality?
 - What foods do the ten countries with the lowest covid mortality rates have the highest intake of?
 
-We believe that each of these questions will help us see the correlation between diet, health, and COVID-19 in a better light which will help us find a data-driven approach to find alternative ways to lower the mortality rate of COVID-19. By seeking out the dietary habits of people in countries with an overall low COVID-19 mortality rate, we can effectively generalize to other countries and help reduce COVID-19 mortality in countries especially of those less developed countries that are particularly marginalized. 
+We believe that each of these questions will help us see the correlation between diet, health, and COVID-19 in a better light which will help us find a data-driven 
+approach to find alternative ways to lower the mortality rate of COVID-19. By seeking out the dietary habits of people in countries with an overall low COVID-19 
+mortality rate, we can effectively generalize to other countries and help reduce COVID-19 mortality in countries especially of those less developed countries that are 
+particularly marginalized. 
 
-With our research, there is a good mix of qualitative and quantitative questions that will help us arrive at a multi-faceted understanding of our topic. We may find that one variable affects the outcome more drastically than the others, which will mean that we may shift more of a focus of our efforts into explaining the causation through data analysis. By taking a look at the data available to us, we may be able to figure out patterns or relationships between risk factors that will let us better combat a future pandemic, whether or not it's a different variant or a different illness entirely. In the end, the purpose of our research questions is to help people gain some understanding in fighting off future diseases and reduce the pressure on medical facilities and resrouces in the event of any other future pandemic(s).
+With our research, there is a good mix of qualitative and quantitative questions that will help us arrive at a multi-faceted understanding of our topic. We may find 
+that one variable affects the outcome more drastically than the others, which will mean that we may shift more of a focus of our efforts into explaining the causation 
+through data analysis. By taking a look at the data available to us, we may be able to figure out patterns or relationships between risk factors that will let us 
+better combat a future pandemic, whether or not it's a different variant or a different illness entirely. In the end, the purpose of our research questions is to help 
+people gain some understanding in fighting off future diseases and reduce the pressure on medical facilities and resrouces in the event of any other future 
+pandemic(s).
 
 ### Related Work  
 
-We have chosen to look at the relationship between health, diet, and the mortality rates of COVID-19. It was not difficult for us to find related work on our topic as a result of the preliminary research we undertook for this project. One of the main benefits of choosing a topic related to COVID-19 is the fact that there is a plethora of recent, accurate datasets and studies that will help us develop and advance our own project. This news article from Harvard University ([Harvard University](https://www.health.harvard.edu/staying-healthy/harvard-study-healthy-diet-associated-with-lower-covid-19-risk-and-severity)) covers the association of a healthy diet and the lower risk and severity of being infected with COVID-19. While brief, it serves as a jumping off point for our group to be able to use as a reference for the numbers and strengthen our arguments. Similarly, this article from The Counter ([The Counter](https://thecounter.org/does-the-american-diet-make-us-more-vulnerable-to-covid-19/)) gives us an insight into the health experts actual responses to a claim made by Whole Foods CEO that claimed the "American diet" made Americans more vulnerable to COVID-19. I think that article in question should also be breifly acknowledged ([The Counter](https://thecounter.org/diet-kills-one-in-five/)) as there are some claims made by the CEO that should be debunked with data rather than simply refuting their claims without any evidence as proof. Generally,  it is our hope that we are able to provide the necessary answers to the research questions we have have previously mentioned in order to have a more data-driven analysis to our questions' as well as these provingg or refuting these articles' claims. 
+We have chosen to look at the relationship between health, diet, and the mortality rates of COVID-19. It was not difficult for us to find related work on our topic as 
+a result of the preliminary research we undertook for this project. One of the main benefits of choosing a topic related to COVID-19 is the fact that there is a 
+plethora of recent, accurate datasets and studies that will help us develop and advance our own project. This news article from Harvard University ([Harvard 
+University](https://www.health.harvard.edu/staying-healthy/harvard-study-healthy-diet-associated-with-lower-covid-19-risk-and-severity)) covers the association of a 
+healthy diet and the lower risk and severity of being infected with COVID-19. While brief, it serves as a jumping off point for our group to be able to use as a 
+reference for the numbers and strengthen our arguments. Similarly, this article from The Counter ([The Counter](https://thecounter.org/does-the-american-diet-make-us-more-vulnerable-to-covid-19/))
+gives us an insight into the health experts actual responses to a claim made by Whole Foods CEO that claimed the "American diet" made Americans more vulnerable to 
+COVID-19. I think that article in question should also be breifly acknowledged ([The Counter](https://thecounter.org/diet-kills-one-in-five/)) as there are some claims 
+made by the CEO that should be debunked with data rather than simply refuting their claims without any evidence as proof. Generally,  it is our hope that we are able 
+to provide the necessary answers to the research questions we have have previously mentioned in order to have a more data-driven analysis to our questions' as well as 
+these provingg or refuting these articles' claims. 
 
 ### The Dataset
 
@@ -64,11 +84,14 @@ What are possible limitations or problems with this data?   (at least 200 words)
 
 > How was the data collected or generated?
   
-- These data sets were collected from the Food and Agriculture Organization of the United Nations FAO website, Population Reference Bureau PRB website, Johns Hopkins Center for Systems Science and Engineering CSSE website, and ChooseMyPlate.gov.
+- These data sets were collected from the Food and Agriculture Organization of the United Nations FAO website, Population Reference Bureau PRB website, Johns Hopkins 
+- Center for Systems Science and Engineering CSSE website, and ChooseMyPlate.gov.
 
 > Why was the data collected?  
 
-- This data was collected from multiple different agencies and organizations in order to better understand the effects that a healthy lifestyle and diet has on the COVID-19, not only in one country but in comparison to many different countries throughout the world. By publishing this data, projects such as ours are allowed to continue and use a comprehensive dataset that we can use to find correlations and relationships between our focuses in the topic. 
+- This data was collected from multiple different agencies and organizations in order to better understand the effects that a healthy lifestyle and diet has on COVID-19,
+not only in one country but in comparison to many different countries throughout the world. By publishing this data, projects such as ours are allowed to 
+continue and use a comprehensive dataset that we can use to find correlations and relationships between our focuses in the topic. 
 
 > How many observations (rows) are in your data?  
 
@@ -80,24 +103,46 @@ What are possible limitations or problems with this data?   (at least 200 words)
 
 > What, if any, ethical questions or questions of power do you need to consider when working with this data? 
  
-- Did this data set collection take into account people's religion? (Is it possible that some people have different calorie or protein intakes than the general population because they don't eat meat or other foods because of their religion?)
+- Did this data set collection take into account people's religion? (Is it possible that some people have different calorie or protein intakes than the general 
+population because they don't eat meat or other foods because of their religion?)
 - "Would the economic situation of different regions cause them to have different intakes of different foods? (Considering the price of food)
 - Is the mortality rate in certain areas related to factors other than the intake of food? (e.g. political reasons, economic reasons, etc.)
 
 > What are possible limitations or problems with this data?
 
-- This dataset does not take into account the effect of factors other than food on the mortality of people in covid environments, such as health status, different economic situations in different regions, and political influences. This data does not list the relationship between other nutrients and covid mortality, such as vitamins. Due to the different trade and economic situations of each country during covid, people in each country may have different dietary habits than before. The data set in this case is not fully representative of the dietary habits of the people in each country. We need to take this into account. The dataset also may have been limited to sample size, as results may not be generalized to larger populations. There may also be cultural differences in food measurements, which can lead to inaccurate data collections. Another limitation of the dataset might be the time frame the data was collected. Another limitation of the data set is that it does not contain a start date for the collection. This information would be useful during analysis so that we could see if eating habits changed as a result of the pandemic. The data may not accurately reflect the current dietary habits of the populations. The dataset also doesn’t provide additional information or context to help interpret the data. This could make it a little more difficult to draw conclusions based solely on the data given.
+- This dataset does not take into account the effect of factors other than food on the mortality of people in covid environments, such as health status, different 
+economic situations in different regions, and political influences. This data does not list the relationship between other nutrients and covid mortality, such as 
+vitamins. Due to the different trade and economic situations of each country during covid, people in each country may have different dietary habits than before. The 
+data set in this case is not fully representative of the dietary habits of the people in each country. We need to take this into account. The dataset also may have 
+been limited to sample size, as results may not be generalized to larger populations. There may also be cultural differences in food measurements, which can lead to 
+inaccurate data collections. Another limitation of the dataset might be the time frame the data was collected. Another limitation of the data set is that it does not 
+contain a start date for the collection. This information would be useful during analysis so that we could see if eating habits changed as a result of the pandemic. 
+The data may not accurately reflect the current dietary habits of the populations. The dataset also doesn’t provide additional information or context to help interpret 
+the data. This could make it a little more difficult to draw conclusions based solely on the data given.
 
 ### Implications
 
-This project is looking at the correlation between diet, nutrition, and severity of COVID-19. If the team is able to answer the proposed questions, the results will influence nutritional guidance released to the general public. Policymakers in the United States Department of Agriculture (USDA) would be able to make educated decisions regarding information they release to the public and intervention's they need to prioritize. For example, if we find a correlation between malnutrition and COVID-19 morality, an implication of this finding would be for the USDA to increase funding towards addressing malnutrition in the United States. Another impacted party of this study is the Center for Disease Control (CDC).
+This project is looking at the correlation between diet, nutrition, and severity of COVID-19. If the team is able to answer the proposed questions, the results will 
+influence nutritional guidance released to the general public. Policymakers in the United States Department of Agriculture (USDA) would be able to make educated 
+decisions regarding information they release to the public and intervention's they need to prioritize. For example, if we find a correlation between malnutrition and 
+COVID-19 morality, an implication of this finding would be for the USDA to increase funding towards addressing malnutrition in the United States. Another impacted 
+party of this study is the Center for Disease Control (CDC).
 
-During the COVID-19 pandemic, the CDC is the governmental body that informs the public about precautions, manages the spread of disease, and works to reduce mortality rates. The CDC will be able to use the results from this study to advise the general public on nutrition specifically related to their field of disease control. This study has the potential to influence the CDC and USDA to partner on addressing the nutritional aspects of reducing mortality in the United States population. This pairing will have an increased impact on human morality working in unison than they currently have working separately. This study has the potential to bridge the gap between these two branches of the government to increase the general United States population health. 
+During the COVID-19 pandemic, the CDC is the governmental body that informs the public about precautions, manages the spread of disease, and works to reduce mortality 
+rates. The CDC will be able to use the results from this study to advise the general public on nutrition specifically related to their field of disease control. This 
+study has the potential to influence the CDC and USDA to partner on addressing the nutritional aspects of reducing mortality in the United States population. This 
+pairing will have an increased impact on human morality working in unison than they currently have working separately. This study has the potential to bridge the gap 
+between these two branches of the government to increase the general United States population health. 
 
 
 ### Limitations & Challenges
 
-The most challenging part of our idea is determining whether or not data and news sources will be not only helpful to us, but if they are indeed accurate or verifiable. With a research topic such as COVID-19, it may be possible that there is false information or data that maybe out there in order to sway public/political opinion one way or another. We won't be limited with the amount of data which there is plenty of, but we will need to make sure that the data we do choose to use is accurate and unbiased as possible. However, since we have this in mind already as well as a dataset from a reputable source, we hoipe it won't be a major detriment to our project. Yet, it is something that has the potential to affect the results and outcome which means we still need to remain vigilant. Other than that, our project shouldn't have many other challenges or limitations outside of technical reasons.
+The most challenging part of our idea is determining whether or not data and news sources will be not only helpful to us, but if they are indeed accurate or 
+verifiable. With a research topic such as COVID-19, it may be possible that there is false information or data that maybe out there in order to sway public/political 
+opinion one way or another. We won't be limited with the amount of data which there is plenty of, but we will need to make sure that the data we do choose to use is 
+accurate and unbiased as possible. However, since we have this in mind already as well as a dataset from a reputable source, we hoipe it won't be a major detriment to 
+our project. Yet, it is something that has the potential to affect the results and outcome which means we still need to remain vigilant. Other than that, our project 
+shouldn't have many other challenges or limitations outside of technical reasons.
 
 ### Summary Information
 
@@ -137,7 +182,12 @@ summary_info$max_undernourished <- data%>%
 summary_info
 ```
 
-The values our group chose to store in a summary information list were the mean, minimum, and maximum values for the percentage of Deaths and Undernourished from our dataset. It was pertinent to our project to include these values as they create a more complete picture of what these numbers actually mean rather than raw values. The NA values were ignored as they would have affected the final results without including any meaningful data. The maximum death value is 0.1854277 meaning the maximum rate of death for any one country was about 18.5%. The minimum death value, however, is a reported "0" which differentiates it from the NA values. This means that a country reported 0 deaths which is highly unlikely given the population numbers stated. The average death value is 0.03936961 across all countries meaning about a 3.9% mortality rate average across the globe. he average undernourished value is 14.45714 and maximum undernourished value is 59.6.
+The values our group chose to store in a summary information list were the mean, minimum, and maximum values for the percentage of Deaths and Undernourished from our 
+dataset. It was pertinent to our project to include these values as they create a more complete picture of what these numbers actually mean rather than raw values. The 
+NA values were ignored as they would have affected the final results without including any meaningful data. The maximum death value is 0.1854277 meaning the maximum 
+rate of death for any one country was about 18.5%. The minimum death value, however, is a reported "0" which differentiates it from the NA values. This means that a 
+country reported 0 deaths which is highly unlikely given the population numbers stated. The average death value is 0.03936961 across all countries meaning about a 3.9% 
+mortality rate average across the globe. he average undernourished value is 14.45714 and maximum undernourished value is 59.6.
 
 
 ### Table
@@ -154,9 +204,13 @@ data_table <- data%>%
 data_table
 ```
 
-This table was created using the groupby() function by creating a new classification that would group together Low, Medium, and High populated countries. Low population was classified by having less than 1,000,000 population, Medium population encompassing 1,000,000-10,000,000 population, and High population consisting of any population over 10,000,000. 
+This table was created using the groupby() function by creating a new classification that would group together Low, Medium, and High populated countries. Low 
+population was classified by having less than 1,000,000 population, Medium population encompassing 1,000,000-10,000,000 population, and High population consisting of 
+any population over 10,000,000. 
 
-Aggregate data was then created using existing features such as Deaths, Undernourished, and Population to create three new columns with additional values. Total deaths was calculated using Deaths % and Population, Total Undernourished was calculated using Undernourished % and Population, and then the final column was created by calculating total deaths out of total confirmed cases leading to a percentage that expresses the value of what percent of active Covid cases leading to death.
+Aggregate data was then created using existing features such as Deaths, Undernourished, and Population to create three new columns with additional values. Total deaths 
+was calculated using Deaths % and Population, Total Undernourished was calculated using Undernourished % and Population, and then the final column was created by 
+calculating total deaths out of total confirmed cases leading to a percentage that expresses the value of what percent of active Covid cases leading to death.
 
 
 ### Chart 1
@@ -200,7 +254,13 @@ print(undernourished_to_death)
 ```
 #### Describe why you chose this chart and what information it reveals
 
-This chart examines the relationship between undernourishment and death from COVID-19. The data shows that both lower and higher undernourished rates are correlated with low deaths and that both low to medium undernourishment rates are correlated with higher death rates. From this observation of both high and low undernourishment values bundled together, we can infer that there is no correlation between a country having a high undernourishment percent and a country having an increased percent of death's.This information seems contrary to everything I have learned, when a person is undernourished their ability to fight off sickness is decreased, thus I would have predicted that higher rates of undernourishment would correlate with higher rates of undernourishment. This broaches the question, does undernourishment affect the amount of confirmed cases? If so, why does it affect confirmed cases and not deaths? If it doesn't, the question becomes, why does undernourishment not impact COVID-19 rates, when it does impact the immune system?
+This chart examines the relationship between undernourishment and death from COVID-19. The data shows that both lower and higher undernourished rates are correlated 
+with low deaths and that both low to medium undernourishment rates are correlated with higher death rates. From this observation of both high and low undernourishment 
+values bundled together, we can infer that there is no correlation between a country having a high undernourishment percent and a country having an increased percent 
+of death's.This information seems contrary to everything I have learned, when a person is undernourished their ability to fight off sickness is decreased, thus I would 
+have predicted that higher rates of undernourishment would correlate with higher rates of undernourishment. This broaches the question, does undernourishment affect 
+the amount of confirmed cases? If so, why does it affect confirmed cases and not deaths? If it doesn't, the question becomes, why does undernourishment not impact 
+COVID-19 rates, when it does impact the immune system?
 
 
 ### Chart 2
