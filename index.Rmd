@@ -1,15 +1,13 @@
 ---
 title: "Exploratory Analysis"
+subtitle: " Diet and Health's Impact on COVID-19 Severity"
 output: html_document
 ---
 
-## Project title
+## Diet and Health's Impact on COVID-19 Severity
 
-Give your project a concise, interesting title that summarizes the entirety of your project
 
 ### Authors
-
-Names of your team members
 
 Qiulin Qu
 Jason Lee
@@ -18,24 +16,31 @@ Emma Finkel
 
 ### Date
 
-Winter 2022
+Winter Quarter 2023 - February 20, 2023
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+This project aims to explore the relationship between diet and COVID-19 and the dataset being used for our project contains nutritional information such as the quantity of fats in various countries. This study will investigate whether or not there is a correlation between fat consumption and the severity of COVID-19 outcomes. The results of this study may provide insights into how diet and overall health can impact the course of the disease and inform public health recommendations.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+COVID-19, Diet, Fat-consumption, Public health. nutrition.
 
-### Introduction  
+### Introduction 
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+Research questions:
+- Is it true that the rate of covid infections is related to diet? What is the correlation coefficient?
+- Is there a positive correlation between malnutrition and mortality? Does good nutrition prevent death?
+- Is there a positive correlation between obesity rates and covid mortality?
+- What foods do the ten countries with the lowest covid mortality rates have the highest intake of?
+
+We believe that each of these questions will help us see the correlation between diet, health, and COVID-19 in a better light which will help us find a data-driven approach to find alternative ways to lower the mortality rate of COVID-19. By seeking out the dietary habits of people in countries with an overall low COVID-19 mortality rate, we can effectively generalize to other countries and help reduce COVID-19 mortality in countries especially of those less developed countries that are particularly marginalized. 
+
+With our research, there is a good mix of qualitative and quantitative questions that will help us arrive at a multi-faceted understanding of our topic. We may find that one variable affects the outcome more drastically than the others, which will mean that we may shift more of a focus of our efforts into explaining the causation through data analysis. By taking a look at the data available to us, we may be able to figure out patterns or relationships between risk factors that will let us better combat a future pandemic, whether or not it's a different variant or a different illness entirely. In the end, the purpose of our research questions is to help people gain some understanding in fighting off future diseases and reduce the pressure on medical facilities and resrouces in the event of any other future pandemic(s).
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+We have chosen to look at the relationship between health, diet, and the mortality rates of COVID-19. It was not difficult for us to find related work on our topic as a result of the preliminary research we undertook for this project. One of the main benefits of choosing a topic related to COVID-19 is the fact that there is a plethora of recent, accurate datasets and studies that will help us develop and advance our own project. This news article from Harvard University ([Harvard University](https://www.health.harvard.edu/staying-healthy/harvard-study-healthy-diet-associated-with-lower-covid-19-risk-and-severity)) covers the association of a healthy diet and the lower risk and severity of being infected with COVID-19. While brief, it serves as a jumping off point for our group to be able to use as a reference for the numbers and strengthen our arguments. Similarly, this article from The Counter ([The Counter](https://thecounter.org/does-the-american-diet-make-us-more-vulnerable-to-covid-19/)) gives us an insight into the health experts actual responses to a claim made by Whole Foods CEO that claimed the "American diet" made Americans more vulnerable to COVID-19. I think that article in question should also be breifly acknowledged ([The Counter](https://thecounter.org/diet-kills-one-in-five/)) as there are some claims made by the CEO that should be debunked with data rather than simply refuting their claims without any evidence as proof. Generally,  it is our hope that we are able to provide the necessary answers to the research questions we have have previously mentioned in order to have a more data-driven analysis to our questions' as well as these provingg or refuting these articles' claims. 
 
 ### The Dataset
 
@@ -48,42 +53,246 @@ How many features (columns) are in the data?
 What, if any, ethical questions or questions of power do you need to consider when working with this data?  
 What are possible limitations or problems with this data?   (at least 200 words)
 
+
+> Data Source:
+
+- The dataset is found on Kaggle at https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset?select=Food_Supply_Quantity_kg_Data.csv
+
+> Who collected the data?  
+
+- Maria Ren collected the data.
+
+> How was the data collected or generated?
+  
+- These data sets were collected from the Food and Agriculture Organization of the United Nations FAO website, Population Reference Bureau PRB website, Johns Hopkins Center for Systems Science and Engineering CSSE website, and ChooseMyPlate.gov.
+
+> Why was the data collected?  
+
+- This data was collected from multiple different agencies and organizations in order to better understand the effects that a healthy lifestyle and diet has on the COVID-19, not only in one country but in comparison to many different countries throughout the world. By publishing this data, projects such as ours are allowed to continue and use a comprehensive dataset that we can use to find correlations and relationships between our focuses in the topic. 
+
+> How many observations (rows) are in your data?  
+
+- There are 170 rows in the dataset. (total 4 datasets)
+
+> How many features (columns) are in the data?  
+
+- here are 32 columns in the dataset. (total 4 datasets)
+
+> What, if any, ethical questions or questions of power do you need to consider when working with this data? 
+ 
+- Did this data set collection take into account people's religion? (Is it possible that some people have different calorie or protein intakes than the general population because they don't eat meat or other foods because of their religion?)
+- "Would the economic situation of different regions cause them to have different intakes of different foods? (Considering the price of food)
+- Is the mortality rate in certain areas related to factors other than the intake of food? (e.g. political reasons, economic reasons, etc.)
+
+> What are possible limitations or problems with this data?
+
+- This dataset does not take into account the effect of factors other than food on the mortality of people in covid environments, such as health status, different economic situations in different regions, and political influences. This data does not list the relationship between other nutrients and covid mortality, such as vitamins. Due to the different trade and economic situations of each country during covid, people in each country may have different dietary habits than before. The data set in this case is not fully representative of the dietary habits of the people in each country. We need to take this into account. The dataset also may have been limited to sample size, as results may not be generalized to larger populations. There may also be cultural differences in food measurements, which can lead to inaccurate data collections. Another limitation of the dataset might be the time frame the data was collected. Another limitation of the data set is that it does not contain a start date for the collection. This information would be useful during analysis so that we could see if eating habits changed as a result of the pandemic. The data may not accurately reflect the current dietary habits of the populations. The dataset also doesn’t provide additional information or context to help interpret the data. This could make it a little more difficult to draw conclusions based solely on the data given.
+
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+This project is looking at the correlation between diet, nutrition, and severity of COVID-19. If the team is able to answer the proposed questions, the results will influence nutritional guidance released to the general public. Policymakers in the United States Department of Agriculture (USDA) would be able to make educated decisions regarding information they release to the public and intervention's they need to prioritize. For example, if we find a correlation between malnutrition and COVID-19 morality, an implication of this finding would be for the USDA to increase funding towards addressing malnutrition in the United States. Another impacted party of this study is the Center for Disease Control (CDC).
+
+During the COVID-19 pandemic, the CDC is the governmental body that informs the public about precautions, manages the spread of disease, and works to reduce mortality rates. The CDC will be able to use the results from this study to advise the general public on nutrition specifically related to their field of disease control. This study has the potential to influence the CDC and USDA to partner on addressing the nutritional aspects of reducing mortality in the United States population. This pairing will have an increased impact on human morality working in unison than they currently have working separately. This study has the potential to bridge the gap between these two branches of the government to increase the general United States population health. 
+
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+The most challenging part of our idea is determining whether or not data and news sources will be not only helpful to us, but if they are indeed accurate or verifiable. With a research topic such as COVID-19, it may be possible that there is false information or data that maybe out there in order to sway public/political opinion one way or another. We won't be limited with the amount of data which there is plenty of, but we will need to make sure that the data we do choose to use is accurate and unbiased as possible. However, since we have this in mind already as well as a dataset from a reputable source, we hoipe it won't be a major detriment to our project. Yet, it is something that has the potential to affect the results and outcome which means we still need to remain vigilant. Other than that, our project shouldn't have many other challenges or limitations outside of technical reasons.
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+```{r}
+#Reading dataset from csv file
+data <- read.csv("Food_Supply_kcal_Data.csv")
+head(data)
+```
+
+```{r, message=FALSE, warning=FALSE}
+#reading dataset from csv file
+data <- read.csv("Food_Supply_kcal_Data.csv")
+head(data)
+
+#crating summary with five values
+library(dplyr)
+summary_info <- list()
+#maximum deaths value
+summary_info$max_deaths <- data%>%
+  filter(Deaths == max(Deaths, na.rm = TRUE))%>%
+  select(Deaths)%>%
+  rename("max_deaths" = Deaths)
+#minimum_deaths value
+summary_info$min_deaths <- data%>%
+  summarise(min_deaths = min(Deaths, na.rm = TRUE))
+#adding average value for deaths percentage
+summary_info$avg_deaths <- data%>%
+  summarise(avg_deaths = mean(Deaths, na.rm = TRUE))
+#converting Undernourished data type to numeric
+data$Undernourished <- as.numeric(data$Undernourished)
+#adding average value for Undernourished
+summary_info$avg_undernourished <- data%>%
+  summarise(avg_undernourished = mean(Undernourished, na.rm = TRUE))
+#adding maximum value for undernourished
+summary_info$max_undernourished <- data%>%
+  summarise(max_undernourished = max(Undernourished, na.rm = TRUE))
+summary_info
+```
+
+The values our group chose to store in a summary information list were the mean, minimum, and maximum values for the percentage of Deaths and Undernourished from our dataset. It was pertinent to our project to include these values as they create a more complete picture of what these numbers actually mean rather than raw values. The NA values were ignored as they would have affected the final results without including any meaningful data. The maximum death value is 0.1854277 meaning the maximum rate of death for any one country was about 18.5%. The minimum death value, however, is a reported "0" which differentiates it from the NA values. This means that a country reported 0 deaths which is highly unlikely given the population numbers stated. The average death value is 0.03936961 across all countries meaning about a 3.9% mortality rate average across the globe. he average undernourished value is 14.45714 and maximum undernourished value is 59.6.
+
 
 ### Table
 
-Include a table of aggregate information
+```{r}
+#creating new variable population_cat
+data$Populaton_cat <- ifelse(data$Population < 1000000, "low", ifelse(data$Population >= 1000000 & data$Population <= 10000000, "medium", "high"))
+#summarise data by population categories
+data_table <- data%>%
+  group_by(Populaton_cat)%>%
+  summarise(total_deaths = sum(Deaths, na.rm = TRUE),
+            total_undernourished = sum(Undernourished, na.rm = TRUE),
+            deaths_perc_by_confirmed = paste(round(sum(Deaths, na.rm = T)/sum(Confirmed, na.rm = T)*100,2), "%", sep = ""))
+data_table
+```
 
-Describe why you included the table and what information it reveals
+This table was created using the groupby() function by creating a new classification that would group together Low, Medium, and High populated countries. Low population was classified by having less than 1,000,000 population, Medium population encompassing 1,000,000-10,000,000 population, and High population consisting of any population over 10,000,000. 
+
+Aggregate data was then created using existing features such as Deaths, Undernourished, and Population to create three new columns with additional values. Total deaths was calculated using Deaths % and Population, Total Undernourished was calculated using Undernourished % and Population, and then the final column was created by calculating total deaths out of total confirmed cases leading to a percentage that expresses the value of what percent of active Covid cases leading to death.
+
 
 ### Chart 1
 
-Include a chart
+#### Include a chart
 
-Describe why you chose this chart and what information it reveals
 
 Here's an example of how to run an R script inside an RMarkdown file:
 
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+```{r, echo = FALSE, code = readLines("chart2.R"), warning=FALSE}
+#line plot:
+
+# Question: Does malnutrition have an effect on likelihood of dying from COVID-19?
+
+# Load libraries and install packages
+library("ggplot2")
+library("scales")
+library("dplyr")
+
+# load in df
+CN_data <- read.csv("Food_Supply_kcal_Data.csv", stringsAsFactors = F)
+
+# make new data frame to use to make a map
+undernourished_deaths_df <- CN_data %>%
+  mutate(Undernourished_as_num = as.numeric(as.character(Undernourished, na.rm = T))) %>%
+  select(Country, Deaths, Undernourished_as_num) %>%
+  na.omit(Undernourished_as_num)
+
+# make line plot
+undernourished_to_death <- ggplot(undernourished_deaths_df) +
+  geom_line(aes(x = Deaths, 
+                y = Undernourished_as_num)) +
+  labs(title = "COVID-19 Deaths in Relation to Undernourishment", 
+       x = "Deaths (%)", 
+       y = "Undernourished (%)") +
+  scale_y_continuous(labels = label_number_si())
+
+# display map
+print(undernourished_to_death)
+
 ```
+#### Describe why you chose this chart and what information it reveals
+
+This chart examines the relationship between undernourishment and death from COVID-19. The data shows that both lower and higher undernourished rates are correlated with low deaths and that both low to medium undernourishment rates are correlated with higher death rates. From this observation of both high and low undernourishment values bundled together, we can infer that there is no correlation between a country having a high undernourishment percent and a country having an increased percent of death's.This information seems contrary to everything I have learned, when a person is undernourished their ability to fight off sickness is decreased, thus I would have predicted that higher rates of undernourishment would correlate with higher rates of undernourishment. This broaches the question, does undernourishment affect the amount of confirmed cases? If so, why does it affect confirmed cases and not deaths? If it doesn't, the question becomes, why does undernourishment not impact COVID-19 rates, when it does impact the immune system?
+
 
 ### Chart 2
 
-Include a chart
+#### Include a chart
 
-Describe why you chose this chart and what information it reveals
+```{r}
+library(dplyr)
+library(ggplot2)
+
+food_data <- read.csv("Food_Supply_kcal_Data.csv")
+#wWhat are the top 10 countries with the most deaths from food malnutrition?
+deaths_data <- food_data %>% select(Country, Deaths)
+
+deaths_data1 <- deaths_data %>% arrange(desc(Deaths))
+
+deaths_top10 <- deaths_data1[1:10,]
+
+ggplot(deaths_top10, aes(x = Country, y = Deaths)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  xlab("Country") +
+  ylab("Number of deaths") +
+  ggtitle("Top 10 countries with the most deaths")
+           
+
+```
+
+#### Describe why you chose this chart and what information it reveals
+I made a plot on the top 10 countries with the most deaths from food malnutrition 
+in RStudio. As shown in the plot below, Belgium had the highest number of deaths,
+followed by Slovenia, the U.K., Czechia, Italy, Bosnia and Herzegovina, North
+Macedonia, the U.S., and Portugal. Bulgaria came as the 10th country with the most
+deaths. Nonetheless, based on the variables in the data set, I would like to know
+whether the population is a key predictor of the number of deaths in different
+countries. That is, what is the death rate in different countries due to food
+malnutrition, measured as the number of deaths per 100,000 people? I would like to
+know whether the high number of deaths that are registered by countries such as
+Belgium, Slovenia, and the U.K. is affected by the population size such that countries
+with larger populations register more deaths. I believe that the number of deaths per
+100,000 individuals can give a more objective measure of the food malnutrition
+challenge.
 
 ### Chart 3
 
-Include a chart
+#### Include a chart
 
-Describe why you chose this chart and what information it reveals
+```{r}
+population_death_fat <- read.csv('Food_Supply_kcal_Data.csv')
+
+
+#install.packages("scales")
+
+library("scales")
+library("dplyr")
+library("ggplot2")
+
+
+population_death_fat <- population_death_fat %>% 
+  filter(!is.na(Obesity), !is.na(Deaths))
+
+
+ggplot(data = population_death_fat) +
+  geom_point(mapping = aes(x = Obesity, y = Deaths)) +
+  labs( title = "Relationsip Between Obesity Rate And Covid Death Rate",
+        x = 'Obesity Rate',
+        y = 'Covid Death Rate') +
+  scale_y_continuous(labels = label_number_si())
+
+
+
+cor(population_death_fat$Obesity, population_death_fat$Deaths)
+```
+
+#### Why choose these dataset and make this chart? 
+I would like to examine the relationship between obesity 
+rates and covid mortality in each country, and if there 
+is a positive correlation between obesity rates and covid 
+mortality, it means that we can study the usefulness of 
+calorie intake and dietary habits to the goal of reducing 
+covid mortality in people. We can use this data to guide 
+people in countries with high obesity rates to lose weight
+and achieve the ultimate goal of reducing covid mortality.
+
+
+#### What does this chart reveal? 
+As we see from the scartterplot and correlation coefficient(0.483)
+calculated between obesity rate and covid death rate,
+We can see that there is a positive moderately 
+strong correlation between obesity rates and covid 
+mortality in the countries we collected, which suggests
+that the more obese people are, the more likely they are 
+to die from covid. This also suggests that it makes sense 
+that we study people's food calorie intake because 
+controlling people's calorie intake and reducing obesity 
+rates can help reduce covid mortality.
